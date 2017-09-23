@@ -1,0 +1,32 @@
+/*
+	Theme Name: BootWP Theme
+	Author: iodev team
+	Author URI: iodevllc.com
+	Version: 0.0.1 (beta)
+*/
+
+article.post
+{
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+article.post:last-child
+{
+	border-bottom: none;
+}
+
+.post-thumbnail img
+{
+	width: 100%;
+	height: auto;
+}
+
+article.post .meta
+{
+	background-color: #f4f4f4;
+	padding: 8px 20px;
+	color: #333;
+}
