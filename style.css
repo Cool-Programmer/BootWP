@@ -30,3 +30,15 @@ article.post .meta
 	padding: 8px 20px;
 	color: #333;
 }
+
+.comment-item
+{
+	overflow: auto;
+}
+
+.comment-list
+{
+	list-style: none;
+	margin: 0 !important;
+	padding: 0;
+}
