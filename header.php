@@ -34,8 +34,12 @@
 			            );
 			        ?>
 					
-					<form class="navbar-form navbar-left">
-						
+					<form method="get" action="<?php echo esc_url(home_url('/')) ?>" class="navbar-form navbar-right">
+						<label for="navbar-search" class="sr-only"><?php echo __("Search", "textdomain") ?></label>
+						<div class="form-group">
+							<input type="text" name="s" class="form-control" id="navbar-search">
+						</div>
+						<button type="submit" class="btn btn-default"><?php echo __("Search", "textdomain") ?></button>
 					</form>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
